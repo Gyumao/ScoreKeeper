@@ -7,5 +7,19 @@ let p1Score = 0;
 let p2Score = 0;
 let gameOver = false;
 let scoreToWin = 5;
-let ScoreToWinResult = document.querySelector("p")
+let scoreToWinResult = document.querySelector("p")
 let numInput = document.querySelector("input");
+
+player1.addEventListener("click", addScoreAfterClickP1); 
+
+function addScoreAfterClickP1() {
+    if (!gameOver) {
+        p1Score++;
+        if (p1Score === scoreToWin) {
+            p1Result.classList.add("winner");
+            gameOver = true;
+        }
+        p1Result.textContent = p1Score;
+    }
+    p1Result.textContent = p1Score;
+}
