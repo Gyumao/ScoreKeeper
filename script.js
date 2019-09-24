@@ -23,3 +23,17 @@ function addScoreAfterClickP1() {
     }
     p1Result.textContent = p1Score;
 }
+
+player2.addEventListener("click", addScoreAfterClickP2)
+
+function addScoreAfterClickP2() {
+    if (!gameOver) {
+        p2Score++;
+        if (p2Score === scoreToWin) {
+            p2Result.classList.add("winner");
+            gameOver = true;
+        }
+    }
+
+    p2Result.textContent = p2Score;
+}
