@@ -6,4 +6,6 @@ let p2Result = document.getElementById("p2Result");
 let p1Score = 0;
 let p2Score = 0;
 let gameOver = false;
-let winningScore = 5;
+let scoreToWin = 5;
+let ScoreToWinResult = document.querySelector("p")
+let numInput = document.querySelector("input");
