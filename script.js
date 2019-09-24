@@ -8,7 +8,6 @@ let p2Score = 0;
 let gameOver = false;
 let scoreToWin = 5;
 let scoreToWinResult = document.querySelector("p")
-let numInput = document.querySelector("input");
 
 player1.addEventListener("click", addScoreAfterClickP1); 
 
@@ -36,4 +35,20 @@ function addScoreAfterClickP2() {
     }
 
     p2Result.textContent = p2Score;
+}
+
+resetButton.addEventListener("click", restart)
+
+function restart () {
+    reset();
+}
+
+function reset() {
+    p1Score = 0;
+    p2Score = 0;
+    p1Result.textContent = 0;
+    p2Result.textContent = 0;
+    p1Result.classList.remove("winner");
+    p2Result.classList.remove("winner");
+    gameOver = false;
 }
