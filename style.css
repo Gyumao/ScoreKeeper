@@ -14,8 +14,8 @@ body
 h1
 {
     text-align: center;
-    font-size: 8rem;
-    margin-top: 2rem;
+    font-size: 7rem;
+    margin-top: 1rem;
     text-shadow: 7px 7px rgb(0, 0, 0);
     color: rgb(240, 210, 0);
     font-weight: bold;
@@ -26,7 +26,7 @@ h2
 {
     text-align: center;
     font-size: 10rem;
-    margin-top: 7rem;
+    margin-top: 4rem;
     text-shadow: 5px 5px black;
     color: rgb(245, 245, 245);
     font-weight: bold;
@@ -64,7 +64,7 @@ p
 .button
 {
     text-align: center;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
 }
 
 button
