@@ -4,10 +4,16 @@
     padding: 0;
 }
 
+body
+{
+    background: url('fond.jpg') no-repeat;
+    background-size: cover;
+}
+
 h1
 {
     text-align: center;
-    font-size: 6rem;
+    font-size: 10rem;
     margin-top: 2rem;
     text-shadow: 7px 5px rgb(0, 0, 0);
     color: rgb(230, 0, 0);
@@ -16,10 +22,32 @@ h1
 h2
 {
     text-align: center;
-    font-size: 6rem;
+    font-size: 10rem;
     margin-top: 10rem;
     text-shadow: 5px 5px black;
+    color: whitesmoke;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.red
+{
     color: rgb(230, 0, 0);
+}
+
+p
+{
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: 3px 3px rgb(230, 0, 0);
+}
+
+.button
+{
+    text-align: center;
 }
 
 button
@@ -28,6 +56,35 @@ button
     height: 2.1rem;
     font-size: 1rem;
     margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.p1
+{
+    background-color: blue;
+    width: 9rem;
+    height: 2.1rem;
+    font-size: 1rem;
+    margin-right: 2%;
+    font-weight: bold;
+}
+
+.reset
+{
+    background-color: whitesmoke;
+    width: 9rem;
+    height: 2.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.p2
+{
+    background-color: rgb(230, 0, 0);
+    width: 9rem;
+    height: 2.1rem;
+    font-size: 1rem;
+    margin-left: 2%;
     font-weight: bold;
 }
 

@@ -9,6 +9,12 @@ let gameOver = false;
 let scoreToWin = 5;
 let scoreToWinResult = document.querySelector("p")
 
+addStl();
+
+function addStl(){
+document.body.style.backgroundColor = rgb(0,0,0);
+}
+
 function addScoreAfterClickP1() {
     if (!gameOver) {
         p1Score++;
