@@ -113,7 +113,7 @@ button
 .scoreChange
 {
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: rem;
 }
 
 input{
@@ -140,4 +140,19 @@ input{
 
 .winner{
 	color: rgb(0, 250, 0);
+}
+
+.contact-footer 
+{
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.p-footer 
+{
+  color: rgb(240, 210, 0);
+  text-shadow: 1px 1px 2px black;
+  font-size: 20px;
+  text-align: center;
+  margin: 2.5rem 0;
 }
