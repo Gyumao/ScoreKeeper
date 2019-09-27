@@ -1,3 +1,5 @@
+`use strict`;
+
 let player1 = document.getElementById("p1");
 let player2 = document.getElementById("p2");
 let resetButton = document.getElementById("reset");
@@ -7,7 +9,10 @@ let p1Score = 0;
 let p2Score = 0;
 let gameOver = false;
 let scoreToWin = 5;
-let scoreToWinResult = document.querySelector("p")
+let scoreToWinResult = document.querySelector("p span")
+let ChangeNumberToWin = document.querySelector("input");
+
+
 
 function addScoreAfterClickP1() {
     if (!gameOver) {
@@ -37,6 +42,13 @@ function addScoreAfterClickP2() {
 
 player2.addEventListener("click", addScoreAfterClickP2)
 
+ChangeNumberToWin.addEventListener("change",changeScore)
+
+function changeScore() {
+    scoreToWinResult.textContent = this.value;
+    scoreToWin = Number(this.value);
+};
+
 function restart () {
     reset();
 }
@@ -51,4 +63,5 @@ function reset() {
     p1Result.classList.remove("winner");
     p2Result.classList.remove("winner");
     gameOver = false;
+    ChangeNumberToWin(); 
 }

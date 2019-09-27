@@ -35,13 +35,13 @@ h2
 .blue
 {
     color: rgb(0, 0, 255);
-    margin-right: 1%;
+    margin-right: 2%;
 }
 
 .red
 {
     color: rgb(230, 0, 0);
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 p
@@ -64,7 +64,7 @@ p
 .button
 {
     text-align: center;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
 }
 
 button
@@ -79,12 +79,13 @@ button
 .p1
 {
     background-color: rgb(0, 0, 250);
-    width: 9rem;
+    width: 10rem;
     height: 2.1rem;
     font-size: 1rem;
     margin-right: 2%;
     font-weight: bold;
     border: 3px solid black;
+    border-radius: 5rem;
 }
 
 .reset
@@ -100,12 +101,13 @@ button
 .p2
 {
     background-color: rgb(230, 0, 0);
-    width: 9rem;
+    width: 10rem;
     height: 2.1rem;
     font-size: 1rem;
     margin-left: 2%;
     font-weight: bold;
     border: 3px solid black;
+    border-radius: 5rem;
 }
 
 .winner{
